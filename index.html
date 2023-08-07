@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPG DICE</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/dice.css">
+  <link rel="icon" href="./img/medo.png" type="image/png">
+</head>
+<body>
+
+  <main>
+
+    <div class="dice__container">
+
+      <button class="dice" data-fg>
+        <div class="dice__content">
+          <img src="./img/d4.svg" alt="d4" class="dice__img">
+          <span class="dice__face">D4</span>
+        </div>
+      </button>
+
+      <button class="dice">
+
+        <div class="dice__content">
+          <img src="./img/d6.svg" alt="d6" class="dice__img">
+          <span class="dice__face">D6</span>
+        </div>
+
+      </button>
+
+      <button class="dice">
+
+        <div class="dice__content">
+          <img src="./img/d8.svg" alt="d8" class="dice__img">
+          <span class="dice__face">D8</span>
+        </div>
+
+      </button>
+
+      <button class="dice">
+        
+        <div class="dice__content">
+          <img src="./img/d10.svg" alt="d10" class="dice__img">
+          <span class="dice__face">D10</span>
+        </div>
+
+      </button>
+
+      <button class="dice">
+
+        <div class="dice__content">
+          <img src="./img/d12.svg" alt="d12" class="dice__img">
+          <span class="dice__face">D12</span>
+        </div>
+
+      </button>
+
+      <button class="dice">
+
+        <div class="dice__content">
+          <img src="./img/d20.svg" alt="d20" class="dice__img">
+          <p class="dice__face">D20</p>
+        </div>
+
+      </button>
+
+    </div>
+
+  </main>
+  
+  <section class="values">
+
+    <div class="values__content">
+
+      <button class="btn">-</button>
+      <span id="amount__dice" class="number">1D</span>
+      <button class="btn">+</button>
+
+    </div>
+
+    <button class="attack__btn">
+      <img class="attack__img" src="./img/noAttack.png" alt="attack mode">
+    </button>
+
+    <div class="values__content">
+
+      <button id="menos" class="btn">-</button>
+      <span id="amount" class="number">0</span>
+      <button id="mais" class="btn">+</button>
+
+    </div>
+
+  </section>
+
+  <div class="result">
+
+    <span class="result__dice"></span>
+    <span class="result__number"></span>
+    <span id="sequence"></span>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
