@@ -39,6 +39,10 @@ main {
   gap: 1rem;
 }
 
+.dice__face, .number {
+  font-size: 1.15rem;
+}
+
 .btn, .attack__btn {
   align-items: center;
   cursor: pointer;
